@@ -4,7 +4,7 @@
 
     <groupId>com.sapiens.bdms</groupId>
     <artifactId>bdms-big-functions-exe-helper</artifactId>
-    <version>6.2</version>
+    <version>6.14</version>
     <packaging>jar</packaging>
 
     <properties>
