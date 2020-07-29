@@ -25,5 +25,26 @@
             <url>${maven.repository.base.url}/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
+    <repositories>
+        <repository>
+            <id>artifactory-oberon</id>
+            <url>${maven.repository.repos.url}</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>artifactory-oberon</id>
+            <url>${maven.repository.repos.url}</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>
